@@ -6,9 +6,13 @@ public class Bridge_manager_02 : MonoBehaviour
 {
     bool openBridge = false;
     bool bridgeOpened = false;
+    bool firstFlagAdded = false;
+    bool secondFlagAdded = false;
     public Flag[] flags;
     public Transform bridge;
     public FlagController flag;
+    public Transform flagPosition2;
+    public Transform flagPosition3;
 
     // Start is called before the first frame update
     void Start()
@@ -27,8 +31,27 @@ public class Bridge_manager_02 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (flag.hasFlag == true)
-            { 
-                Debug.Log("Flag added");
+            {   
+                if (firstFlagAdded == false)
+                {
+                    Debug.Log("Flag added");
+                    firstFlagAdded = true;
+                    flag.flagPosition = flagPosition2;
+                    flag.hasFlag = false;
+                }
+                else
+                {
+                    if (secondFlagAdded == false)
+                    {
+                        secondFlagAdded = true;
+                        flag.flagPosition = flagPosition3;
+                        bridge.transform.Translate(4, 0, 0);
+                        bridge.transform.localScale = new Vector3(12, bridge.transform.localScale.y, bridge.transform.localScale.z);
+                        flag.hasFlag = false;
+                        bridgeOpened = true;
+                    }
+                }
+
             }
             else
             {
