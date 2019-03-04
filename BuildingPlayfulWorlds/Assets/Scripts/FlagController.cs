@@ -6,7 +6,7 @@ public class FlagController : MonoBehaviour
 {
     public Transform flagPosition;
 
-    private Flag currentFlag = null;
+    public Flag currentFlag = null;
 
     public bool hasFlag = false;
 
@@ -32,6 +32,7 @@ public class FlagController : MonoBehaviour
             {
                 currentFlag = flag;
                 currentFlag.OnPickup(flagPosition);
+                currentFlag.GetComponent<SphereCollider>().enabled = false;
                 hasFlag = true;
                 Debug.Log("Picked up flag");
             }

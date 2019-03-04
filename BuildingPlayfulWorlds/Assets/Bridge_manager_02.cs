@@ -36,7 +36,8 @@ public class Bridge_manager_02 : MonoBehaviour
                 {
                     Debug.Log("Flag added");
                     firstFlagAdded = true;
-                    flag.flagPosition = flagPosition2;
+                    flag.currentFlag.OnPickup(flagPosition2);
+                    
                     flag.hasFlag = false;
                 }
                 else
@@ -44,7 +45,7 @@ public class Bridge_manager_02 : MonoBehaviour
                     if (secondFlagAdded == false)
                     {
                         secondFlagAdded = true;
-                        flag.flagPosition = flagPosition3;
+                        flag.currentFlag.OnPickup(flagPosition3);
                         bridge.transform.Translate(4, 0, 0);
                         bridge.transform.localScale = new Vector3(12, bridge.transform.localScale.y, bridge.transform.localScale.z);
                         flag.hasFlag = false;
