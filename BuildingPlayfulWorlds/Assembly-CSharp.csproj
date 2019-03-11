@@ -60,8 +60,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Bridge_manager_02.cs" />
-    <Compile Include="Assets\DeathTrap.cs" />
+    <Compile Include="Assets\_Game\Scripts\Bridge_01_Manager.cs" />
+    <Compile Include="Assets\_Game\Scripts\Bridge_manager_02.cs" />
+    <Compile Include="Assets\_Game\Scripts\ButtonScript.cs" />
+    <Compile Include="Assets\_Game\Scripts\DeathTrap.cs" />
+    <Compile Include="Assets\_Game\Scripts\Flag.cs" />
+    <Compile Include="Assets\_Game\Scripts\FlagController.cs" />
+    <Compile Include="Assets\_Game\Scripts\PlayerController.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -70,11 +75,6 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
-    <Compile Include="Assets\Scripts\Bridge_01_Manager.cs" />
-    <Compile Include="Assets\Scripts\ButtonScript.cs" />
-    <Compile Include="Assets\Scripts\Flag.cs" />
-    <Compile Include="Assets\Scripts\FlagController.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/HkuGames/BuildingPlayfulWorlds/BuildingPlayfulWorlds/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
