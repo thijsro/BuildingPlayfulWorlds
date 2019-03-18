@@ -119,3 +119,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDangerous: 1
+  isLastOne: 0
+  isFirstOne: 0
+  isResetting: 0
+  deathTrap: {fileID: 6577116893923727937}
+  DeathTrap_0: {fileID: 2100000, guid: 32bd75e38a2208a43a29acc13dd00746, type: 2}
+  DeathTrap_1: {fileID: 2100000, guid: 3601ffc4afeafac4b833f4f8fa5a0e18, type: 2}
+  DeathTrap_2: {fileID: 2100000, guid: 955889b28bf992d4dba9658d53b7580f, type: 2}
+  deathTraps: []
+  Wall: {fileID: 0}

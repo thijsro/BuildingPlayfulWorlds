@@ -64,6 +64,7 @@
     <Compile Include="Assets\_Game\Scripts\Bridge_manager_02.cs" />
     <Compile Include="Assets\_Game\Scripts\ButtonScript.cs" />
     <Compile Include="Assets\_Game\Scripts\DeathTrap.cs" />
+    <Compile Include="Assets\_Game\Scripts\DeathTrapManager.cs" />
     <Compile Include="Assets\_Game\Scripts\Flag.cs" />
     <Compile Include="Assets\_Game\Scripts\FlagController.cs" />
     <Compile Include="Assets\_Game\Scripts\PlayerController.cs" />
