@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   - component: {fileID: 11400010}
-  - component: {fileID: 2596385529476996534}
   m_Layer: 4
   m_Name: Tile
   m_TagString: Untagged
@@ -93,30 +92,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reflection: {fileID: 11400004}
   waterBase: {fileID: 11400008}
---- !u!205 &2596385529476996534
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100000}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
-  m_Size: 1
-  m_FadeMode: 1
-  m_AnimateCrossFading: 0
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.06254309
-    fadeTransitionWidth: 0.1
-    renderers: []
-  - screenRelativeHeight: 0.01523683
-    fadeTransitionWidth: 0
-    renderers: []
-  - screenRelativeHeight: 0.004187192
-    fadeTransitionWidth: 0
-    renderers: []
-  m_Enabled: 1
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0
@@ -129,7 +104,6 @@ GameObject:
   - component: {fileID: 3300004}
   - component: {fileID: 2300004}
   - component: {fileID: 11400014}
-  - component: {fileID: 2769662852168285933}
   m_Layer: 4
   m_Name: Tile
   m_TagString: Untagged
@@ -210,30 +184,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reflection: {fileID: 11400004}
   waterBase: {fileID: 11400008}
---- !u!205 &2769662852168285933
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100004}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
-  m_Size: 1
-  m_FadeMode: 1
-  m_AnimateCrossFading: 0
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.025710968
-    fadeTransitionWidth: 0
-    renderers: []
-  - screenRelativeHeight: 0.011898919
-    fadeTransitionWidth: 0
-    renderers: []
-  - screenRelativeHeight: 0.0034198551
-    fadeTransitionWidth: 0
-    renderers: []
-  m_Enabled: 1
 --- !u!1 &100006
 GameObject:
   m_ObjectHideFlags: 0
