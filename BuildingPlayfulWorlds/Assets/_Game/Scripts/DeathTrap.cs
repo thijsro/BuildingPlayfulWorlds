@@ -34,34 +34,30 @@ public class DeathTrap : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (Manager.isDead) { return; }
         if (isDangerous == true)
         {
-            //Destroy(player);
+            //Tell manager to make all tiles red.
             Debug.Log("You died!");
-            Manager.isResetting = true;
+            Manager.DeathPuzzle();
         }
         else
         {
-            if (isFirstOne == true)
-            {
-                Manager.resetDone = true;
-
-            }
+            
             deathTrap.gameObject.GetComponent<Renderer>().sharedMaterial = DeathTrap_2;
             if (isLastOne == true)
             {
+                //Create next way to walk
                 Debug.Log("Wall destroyed");
                 Destroy(Wall);
+                Manager.PuzzleSolved();
             }
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (isFirstOne == true)
-        {
-            Manager.resetDone = false;
-        }
+
     }
 
 }

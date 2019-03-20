@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 6577116893923727937}
   - component: {fileID: 6577116893923727950}
   - component: {fileID: 6577116893923727951}
-  - component: {fileID: 6577116893923727948}
   - component: {fileID: 6577116893923727939}
+  - component: {fileID: 6577116893923727948}
   - component: {fileID: 6577116893923727936}
   m_Layer: 0
   m_Name: Cube
@@ -80,19 +80,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &6577116893923727948
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6577116893923727949}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6577116893923727939
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -106,6 +93,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 5, z: 1}
   m_Center: {x: 0, y: 3, z: 0}
+--- !u!65 &6577116893923727948
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6577116893923727949}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6577116893923727936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121,10 +121,8 @@ MonoBehaviour:
   isDangerous: 1
   isLastOne: 0
   isFirstOne: 0
-  isResetting: 0
   deathTrap: {fileID: 6577116893923727937}
   DeathTrap_0: {fileID: 2100000, guid: 32bd75e38a2208a43a29acc13dd00746, type: 2}
   DeathTrap_1: {fileID: 2100000, guid: 3601ffc4afeafac4b833f4f8fa5a0e18, type: 2}
   DeathTrap_2: {fileID: 2100000, guid: 955889b28bf992d4dba9658d53b7580f, type: 2}
-  deathTraps: []
   Wall: {fileID: 0}
