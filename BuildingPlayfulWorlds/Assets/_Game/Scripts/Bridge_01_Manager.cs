@@ -10,6 +10,7 @@ public class Bridge_01_Manager : MonoBehaviour
     public Transform bridge;
     Material bridgeMaterial;
     public Material sand_02;
+    public AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +35,8 @@ public class Bridge_01_Manager : MonoBehaviour
                 }
                 bridge.transform.Translate(4, 0, 0);
                 bridge.transform.localScale = new Vector3(12,bridge.transform.localScale.y, bridge.transform.localScale.z);
+                audioSource.Play();
+
 
             }
 

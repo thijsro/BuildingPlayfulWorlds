@@ -6,10 +6,14 @@ public class ButtonScript : MonoBehaviour
 {
     public Bridge_01_Manager mgr;
     public bool buttonPressed = false;
+    public Transform button;
+    public Material DeathTrap_1;
+    AudioSource audioSource;
 
     private void Start()
     {
         mgr = FindObjectOfType<Bridge_01_Manager>();
+        audioSource = GetComponentInChildren<AudioSource>();
     }
 
     void OnTriggerStay(Collider col)
@@ -18,7 +22,8 @@ public class ButtonScript : MonoBehaviour
         {
             buttonPressed = true;
             Debug.Log("Button pressed");
-
+            audioSource.Play();
+            button.gameObject.GetComponent<Renderer>().material = DeathTrap_1;
         }
     }
 

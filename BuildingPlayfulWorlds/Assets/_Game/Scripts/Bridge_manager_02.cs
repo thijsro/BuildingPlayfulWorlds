@@ -8,11 +8,15 @@ public class Bridge_manager_02 : MonoBehaviour
     bool bridgeOpened = false;
     bool firstFlagAdded = false;
     bool secondFlagAdded = false;
+    bool thirdFlagAdded = false;
     public Flag[] flags;
     public Transform bridge;
     public FlagController flag;
     public Transform flagPosition2;
     public Transform flagPosition3;
+    public Transform flagPosition4;
+    public Material material;
+    public AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -36,8 +40,7 @@ public class Bridge_manager_02 : MonoBehaviour
                 {
                     Debug.Log("Flag added");
                     firstFlagAdded = true;
-                    flag.currentFlag.OnPickup(flagPosition2);
-                    
+                    flag.currentFlag.OnPickup(flagPosition2);                   
                     flag.hasFlag = false;
                 }
                 else
@@ -46,10 +49,21 @@ public class Bridge_manager_02 : MonoBehaviour
                     {
                         secondFlagAdded = true;
                         flag.currentFlag.OnPickup(flagPosition3);
-                        bridge.transform.Translate(4, 0, 0);
-                        bridge.transform.localScale = new Vector3(12, bridge.transform.localScale.y, bridge.transform.localScale.z);
                         flag.hasFlag = false;
-                        bridgeOpened = true;
+                    }
+                    else
+                    {
+                        if (thirdFlagAdded == false)
+                        {
+                            thirdFlagAdded = true;
+                            flag.currentFlag.OnPickup(flagPosition4);
+                            bridge.transform.Translate(4, 0, 0);
+                            bridge.transform.localScale = new Vector3(12, bridge.transform.localScale.y, bridge.transform.localScale.z);
+                            bridge.gameObject.GetComponent<Renderer>().material = material;
+                            flag.hasFlag = false;
+                            bridgeOpened = true;
+                            audioSource.Play();
+                        }
                     }
                 }
 

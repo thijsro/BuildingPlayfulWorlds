@@ -62,12 +62,18 @@
   <ItemGroup>
     <Compile Include="Assets\_Game\Scripts\Bridge_01_Manager.cs" />
     <Compile Include="Assets\_Game\Scripts\Bridge_manager_02.cs" />
+    <Compile Include="Assets\_Game\Scripts\ButtonManager.cs" />
     <Compile Include="Assets\_Game\Scripts\ButtonScript.cs" />
     <Compile Include="Assets\_Game\Scripts\DeathTrap.cs" />
     <Compile Include="Assets\_Game\Scripts\DeathTrapManager.cs" />
+    <Compile Include="Assets\_Game\Scripts\diediedie.cs" />
+    <Compile Include="Assets\_Game\Scripts\EndGame.cs" />
+    <Compile Include="Assets\_Game\Scripts\EnvironmentSwitch.cs" />
     <Compile Include="Assets\_Game\Scripts\Flag.cs" />
     <Compile Include="Assets\_Game\Scripts\FlagController.cs" />
+    <Compile Include="Assets\_Game\Scripts\MusicSwitch.cs" />
     <Compile Include="Assets\_Game\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\_Game\Scripts\Puzzle_Island_2.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -76,6 +82,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\TextEndGame.cs" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/HkuGames/BuildingPlayfulWorlds/BuildingPlayfulWorlds/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
