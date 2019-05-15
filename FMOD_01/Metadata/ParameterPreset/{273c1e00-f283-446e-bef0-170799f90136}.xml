@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{273c1e00-f283-446e-bef0-170799f90136}">
+        <property name="name">
+            <value>ClapIn</value>
+        </property>
+        <relationship name="folder">
+            <destination>{21ee4b9b-93a0-4938-8af0-c07173436418}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{5dabd4e0-eeae-4a7e-b885-92bc7b094431}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{5dabd4e0-eeae-4a7e-b885-92bc7b094431}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+        <property name="seekSpeed">
+            <value>0.30000001192092896</value>
+        </property>
+    </object>
+</objects>

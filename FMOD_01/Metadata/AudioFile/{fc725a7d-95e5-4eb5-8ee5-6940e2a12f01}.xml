@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{fc725a7d-95e5-4eb5-8ee5-6940e2a12f01}">
+        <property name="assetPath">
+            <value>ISA_01_KICK.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>72</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{3910eb30-0af1-4c0f-a4a1-b14506da65f0}</destination>
+        </relationship>
+    </object>
+</objects>
