@@ -361,8 +361,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7322013}
-  m_LocalRotation: {x: 0.33224845, y: -0.11826872, z: -0.041930575, w: -0.9348076}
-  m_LocalPosition: {x: 35.69989, y: 17.146011, z: -0.34744835}
+  m_LocalRotation: {x: 0.32884902, y: -0.27042872, z: -0.09876726, w: -0.89942855}
+  m_LocalPosition: {x: 54.488293, y: 19.769234, z: -3.0575228}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1331,8 +1331,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 55904294}
-  m_LocalRotation: {x: 0.44276112, y: -0.117549345, z: -0.05856882, w: -0.88696927}
-  m_LocalPosition: {x: 31.61791, y: -22.544235, z: -15.054701}
+  m_LocalRotation: {x: 0.35294247, y: -0.14746736, z: -0.056332197, w: -0.9222319}
+  m_LocalPosition: {x: 74.27085, y: 21.117027, z: -8.418719}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1828,7 +1828,7 @@ Transform:
   m_LocalScale: {x: 8.047585, y: 3.1980567, z: 3.792113}
   m_Children: []
   m_Father: {fileID: 2061200655}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 13.123001, z: 0}
 --- !u!114 &79778981
 MonoBehaviour:
@@ -1843,6 +1843,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Emitters:
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: MelodyIn
+      Value: 1
+    - Name: RideIn
+      Value: 1
+    - Name: BassIn
+      Value: 1
+    - Name: KickIN
+      Value: 1
+    - Name: ClapIn
+      Value: 1
   - Target: {fileID: 1663793679}
     Params:
     - Name: MelodyIn
@@ -6273,6 +6285,19 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &308586508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308586505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: 0
 --- !u!1001 &310986925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11637,8 +11662,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606964244}
-  m_LocalRotation: {x: 0.44276112, y: -0.117549345, z: -0.05856882, w: -0.88696927}
-  m_LocalPosition: {x: 30.621864, y: -22.522491, z: -18.740326}
+  m_LocalRotation: {x: -0.22053792, y: -0.43870917, z: -0.11210577, w: 0.8639037}
+  m_LocalPosition: {x: 59.653233, y: 39.49454, z: -0.093967795}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -12524,7 +12549,7 @@ Transform:
   m_LocalScale: {x: 16.294685, y: 6.7916446, z: 8.019295}
   m_Children: []
   m_Father: {fileID: 2061200655}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 41.439003, z: 0}
 --- !u!114 &646310460
 MonoBehaviour:
@@ -16908,6 +16933,7 @@ GameObject:
   m_Component:
   - component: {fileID: 860136120}
   - component: {fileID: 860136119}
+  - component: {fileID: 860136121}
   m_Layer: 0
   m_Name: Water4Simple (8)ReflectionSceneCamera
   m_TagString: Untagged
@@ -16964,13 +16990,22 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 860136118}
-  m_LocalRotation: {x: 0.44276112, y: -0.117549345, z: -0.05856882, w: -0.88696927}
-  m_LocalPosition: {x: 31.61791, y: -22.544235, z: -15.054701}
+  m_LocalRotation: {x: 0.35294247, y: -0.14746736, z: -0.056332197, w: -0.9222319}
+  m_LocalPosition: {x: 74.27085, y: 21.117027, z: -8.418719}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!45 &860136121
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860136118}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 0}
 --- !u!1001 &862902549
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17507,6 +17542,97 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 875231671}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &876288517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 876288521}
+  - component: {fileID: 876288520}
+  - component: {fileID: 876288519}
+  - component: {fileID: 876288518}
+  m_Layer: 0
+  m_Name: TurnOnIsland2
+  m_TagString: MusicSwitch
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &876288518
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876288517}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &876288519
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876288517}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &876288520
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876288517}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &876288521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876288517}
+  m_LocalRotation: {x: -0, y: 0.84107757, z: -0, w: 0.5409146}
+  m_LocalPosition: {x: 25.959995, y: 4.1500015, z: 0.9800005}
+  m_LocalScale: {x: 10.787147, y: 2.2926, z: 2.292601}
+  m_Children: []
+  m_Father: {fileID: 2061200655}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 114.508, z: 0}
 --- !u!1 &880490365
 GameObject:
   m_ObjectHideFlags: 0
@@ -18965,6 +19091,89 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 933855656}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &936427086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 936427089}
+  - component: {fileID: 936427088}
+  - component: {fileID: 936427087}
+  m_Layer: 0
+  m_Name: Water4Simple (13)ReflectionPreview Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!45 &936427087
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936427086}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 0}
+--- !u!20 &936427088
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936427086}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 1}
+  m_projectionMatrixMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_GateFitMode: 2
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967279
+  m_RenderingPath: 1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &936427089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936427086}
+  m_LocalRotation: {x: -0.11559266, y: -0.7261615, z: -0.12620197, w: 0.6658836}
+  m_LocalPosition: {x: 52.619232, y: 35.098526, z: 33.924114}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &939826034
 GameObject:
   m_ObjectHideFlags: 0
@@ -19605,8 +19814,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 970965624}
-  m_LocalRotation: {x: 0.44276112, y: -0.117549345, z: -0.05856882, w: -0.88696927}
-  m_LocalPosition: {x: 31.61791, y: -22.544235, z: -15.054701}
+  m_LocalRotation: {x: 0.35294247, y: -0.14746736, z: -0.056332197, w: -0.9222319}
+  m_LocalPosition: {x: 74.27085, y: 21.117027, z: -8.418719}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -22838,7 +23047,7 @@ Transform:
   m_LocalScale: {x: 8.047585, y: 5.9845233, z: 11.309978}
   m_Children: []
   m_Father: {fileID: 2061200655}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 13.123001, z: 0}
 --- !u!114 &1205100516
 MonoBehaviour:
@@ -22853,6 +23062,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Emitters:
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: LoopIn
+      Value: 1
+    - Name: MelodyIn2
+      Value: 1
+    - Name: KickIN
+      Value: 0
+    - Name: BassIn
+      Value: 0
+    - Name: ClapIn
+      Value: 0
+    - Name: RideIn
+      Value: 0
+    - Name: MelodyIn
+      Value: 0
   - Target: {fileID: 1663793679}
     Params:
     - Name: KickIN
@@ -24863,7 +25088,8 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
 --- !u!1001 &1289374082
 PrefabInstance:
@@ -25090,6 +25316,7 @@ MonoBehaviour:
   bridge: {fileID: 1008989587}
   sand_02: {fileID: 2100000, guid: f01dea0623e142d48b6f160d978e5939, type: 2}
   audioSource: {fileID: 1766998098}
+  BridgeSound: event:/Interaction/Bridge
 --- !u!1001 &1309267118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28332,7 +28559,7 @@ Transform:
   m_LocalScale: {x: 29.127312, y: 11.575, z: 45.062702}
   m_Children: []
   m_Father: {fileID: 2061200655}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 9.905001, z: 0}
 --- !u!114 &1454677165
 MonoBehaviour:
@@ -30939,7 +31166,7 @@ Transform:
   m_LocalScale: {x: 8.047585, y: 3.1980567, z: 10.574476}
   m_Children: []
   m_Father: {fileID: 2061200655}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 48.051003, z: 0}
 --- !u!114 &1575660298
 MonoBehaviour:
@@ -32702,7 +32929,7 @@ Transform:
   m_LocalScale: {x: 8.047585, y: 5.9845233, z: 11.309978}
   m_Children: []
   m_Father: {fileID: 2061200655}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 13.123001, z: 0}
 --- !u!114 &1643894011
 MonoBehaviour:
@@ -33254,6 +33481,29 @@ MonoBehaviour:
   flagPosition: {fileID: 1501384255}
   currentFlag: {fileID: 0}
   hasFlag: 0
+--- !u!114 &1663793673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663793671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Music/Music_Island_2
+  PlayEvent: 3
+  StopEvent: 0
+  CollisionTag: MusicSwitch
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!54 &1663793674 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 5400000, guid: 5e9e851c0e142814dac026a256ba2ac0,
@@ -35945,8 +36195,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1808448068}
-  m_LocalRotation: {x: 0.44276112, y: -0.117549345, z: -0.05856882, w: -0.88696927}
-  m_LocalPosition: {x: 31.61791, y: -22.544235, z: -15.054701}
+  m_LocalRotation: {x: 0.35294247, y: -0.14746736, z: -0.056332197, w: -0.9222319}
+  m_LocalPosition: {x: 74.27085, y: 21.117027, z: -8.418719}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -39139,7 +39389,7 @@ Transform:
   m_LocalScale: {x: 7.532665, y: 4.988868, z: 13.462453}
   m_Children: []
   m_Father: {fileID: 2061200655}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 64.43, z: 0}
 --- !u!114 &1953876045
 MonoBehaviour:
@@ -39154,6 +39404,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Emitters:
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: MelodyIn
+      Value: 1
+    - Name: RideIn
+      Value: 1
+    - Name: ClapIn
+      Value: 0
   - Target: {fileID: 1663793679}
     Params:
     - Name: MelodyIn
@@ -39198,6 +39456,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Emitters:
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: MelodyIn
+      Value: 0
+    - Name: BassIn
+      Value: 0
+    - Name: RideIn
+      Value: 0
+    - Name: KickIN
+      Value: 1
+    - Name: ClapIn
+      Value: 1
   - Target: {fileID: 1663793679}
     Params:
     - Name: MelodyIn
@@ -42294,6 +42564,7 @@ Transform:
   m_LocalPosition: {x: 50.24, y: 51.12, z: 14.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 876288521}
   - {fileID: 646310459}
   - {fileID: 1454677164}
   - {fileID: 1575660297}
@@ -42670,6 +42941,7 @@ MonoBehaviour:
   bridge: {fileID: 2131714233}
   sand_02: {fileID: 2100000, guid: f01dea0623e142d48b6f160d978e5939, type: 2}
   audioSource: {fileID: 1979238737}
+  BridgeSound: 
 --- !u!4 &2084125927
 Transform:
   m_ObjectHideFlags: 0

@@ -71,6 +71,7 @@
     <Compile Include="Assets\_Game\Scripts\EnvironmentSwitch.cs" />
     <Compile Include="Assets\_Game\Scripts\Flag.cs" />
     <Compile Include="Assets\_Game\Scripts\FlagController.cs" />
+    <Compile Include="Assets\_Game\Scripts\FmodController.cs" />
     <Compile Include="Assets\_Game\Scripts\MusicSwitch.cs" />
     <Compile Include="Assets\_Game\Scripts\PlayerController.cs" />
     <Compile Include="Assets\_Game\Scripts\Puzzle_Island_2.cs" />

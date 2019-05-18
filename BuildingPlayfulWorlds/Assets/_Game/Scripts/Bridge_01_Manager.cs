@@ -11,6 +11,8 @@ public class Bridge_01_Manager : MonoBehaviour
     Material bridgeMaterial;
     public Material sand_02;
     public AudioSource audioSource;
+    [FMODUnity.EventRef]
+    public string BridgeSound;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +38,7 @@ public class Bridge_01_Manager : MonoBehaviour
                 bridge.transform.Translate(4, 0, 0);
                 bridge.transform.localScale = new Vector3(12,bridge.transform.localScale.y, bridge.transform.localScale.z);
                 audioSource.Play();
+                FMODUnity.RuntimeManager.PlayOneShot(BridgeSound, bridge.transform.position);
 
 
             }

@@ -360,3 +360,4 @@ MonoBehaviour:
   buttonPressed: 0
   button: {fileID: 5000565328735700771}
   DeathTrap_1: {fileID: 2100000, guid: 955889b28bf992d4dba9658d53b7580f, type: 2}
+  Button: event:/Interaction/Button

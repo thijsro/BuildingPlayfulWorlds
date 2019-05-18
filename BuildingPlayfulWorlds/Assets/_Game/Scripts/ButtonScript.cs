@@ -9,6 +9,8 @@ public class ButtonScript : MonoBehaviour
     public Transform button;
     public Material DeathTrap_1;
     AudioSource audioSource;
+    [FMODUnity.EventRef]
+    public string Button;
 
     private void Start()
     {
@@ -23,6 +25,7 @@ public class ButtonScript : MonoBehaviour
             buttonPressed = true;
             Debug.Log("Button pressed");
             audioSource.Play();
+            FMODUnity.RuntimeManager.PlayOneShot(Button, transform.position);
             button.gameObject.GetComponent<Renderer>().material = DeathTrap_1;
         }
     }
