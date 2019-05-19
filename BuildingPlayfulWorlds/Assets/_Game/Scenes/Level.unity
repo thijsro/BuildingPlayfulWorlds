@@ -361,8 +361,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7322013}
-  m_LocalRotation: {x: 0.32884902, y: -0.27042872, z: -0.09876726, w: -0.89942855}
-  m_LocalPosition: {x: 54.488293, y: 19.769234, z: -3.0575228}
+  m_LocalRotation: {x: 0.11247306, y: -0.8659316, z: -0.4322562, w: -0.2250931}
+  m_LocalPosition: {x: 84.29668, y: -25.519043, z: 71.350685}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1331,8 +1331,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 55904294}
-  m_LocalRotation: {x: 0.35294247, y: -0.14746736, z: -0.056332197, w: -0.9222319}
-  m_LocalPosition: {x: 74.27085, y: 21.117027, z: -8.418719}
+  m_LocalRotation: {x: 0.1527897, y: -0.7694482, z: -0.20011744, w: -0.5869905}
+  m_LocalPosition: {x: -1.5325928, y: 9.841843, z: 84.01992}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1843,6 +1843,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: MelodyIn
+      Value: 1
+    - Name: RideIn
+      Value: 1
+    - Name: BassIn
+      Value: 1
+    - Name: KickIN
+      Value: 1
+    - Name: ClapIn
+      Value: 1
   - Target: {fileID: 1663793673}
     Params:
     - Name: MelodyIn
@@ -7495,6 +7507,60 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 381631810}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &388290533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 388290534}
+  - component: {fileID: 388290535}
+  m_Layer: 0
+  m_Name: Desert_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &388290534
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388290533}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.5, y: -0.28, z: -61.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 661515528}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &388290535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388290533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Ambience/Desert_01
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 20
+  OverrideMaxDistance: 35
 --- !u!1001 &389143275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9750,6 +9816,97 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 484947143}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &492988436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 492988437}
+  - component: {fileID: 492988440}
+  - component: {fileID: 492988439}
+  - component: {fileID: 492988438}
+  m_Layer: 0
+  m_Name: Cube (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &492988437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492988436}
+  m_LocalRotation: {x: 0, y: -0.15315838, z: 0, w: 0.98820174}
+  m_LocalPosition: {x: 4.68, y: 6.52, z: 56.8}
+  m_LocalScale: {x: 8.857321, y: 7.074307, z: 3.408384}
+  m_Children: []
+  m_Father: {fileID: 2061200655}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: -17.62, z: 0}
+--- !u!114 &492988438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492988436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: Drone2In
+      Value: 0
+    - Name: MelodyIn
+      Value: 0
+    - Name: Drone1Full
+      Value: 0
+    - Name: RideIn
+      Value: 1
+    - Name: ClapIn
+      Value: 0
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: MelodyIn
+      Value: 1
+    - Name: RideIn
+      Value: 1
+    - Name: ClapIn
+      Value: 0
+  - Target: {fileID: 1663793679}
+    Params: []
+  TriggerEvent: 3
+  CollisionTag: Player
+--- !u!65 &492988439
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492988436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &492988440
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492988436}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &496990999
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11662,8 +11819,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606964244}
-  m_LocalRotation: {x: -0.22053792, y: -0.43870917, z: -0.11210577, w: 0.8639037}
-  m_LocalPosition: {x: 59.653233, y: 39.49454, z: -0.093967795}
+  m_LocalRotation: {x: -0.003230677, y: -0.95541805, z: -0.29504174, w: 0.0107878335}
+  m_LocalPosition: {x: 138.51686, y: 11.501343, z: 80.02542}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -12564,6 +12721,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: BassIn
+      Value: 1
+    - Name: KickIN
+      Value: 1
+    - Name: ClapIn
+      Value: 1
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: BassIn
+      Value: 1
+    - Name: KickIN
+      Value: 1
+    - Name: ClapIn
+      Value: 1
   - Target: {fileID: 1663793679}
     Params:
     - Name: BassIn
@@ -12608,6 +12781,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: BassIn
+      Value: 0
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: BassIn
+      Value: 0
   - Target: {fileID: 1663793679}
     Params:
     - Name: BassIn
@@ -12984,6 +13165,39 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 657513646}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &661515527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 661515528}
+  m_Layer: 0
+  m_Name: FMOD Ambience
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &661515528
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661515527}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 42.32504, y: 45.744217, z: 81.44722}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1896949523}
+  - {fileID: 388290534}
+  - {fileID: 764691140}
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &662308637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13447,6 +13661,97 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &690059256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 690059257}
+  - component: {fileID: 690059260}
+  - component: {fileID: 690059259}
+  - component: {fileID: 690059258}
+  m_Layer: 0
+  m_Name: Cube (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &690059257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690059256}
+  m_LocalRotation: {x: -0, y: -0.2389232, z: -0, w: 0.97103846}
+  m_LocalPosition: {x: -25.43, y: 3.4964485, z: 62.52}
+  m_LocalScale: {x: 8.857321, y: 7.074307, z: 9.121754}
+  m_Children: []
+  m_Father: {fileID: 2061200655}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: -27.646002, z: 0}
+--- !u!114 &690059258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690059256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: Drone2In
+      Value: 1
+    - Name: MelodyIn
+      Value: 1
+    - Name: Drone1Full
+      Value: 1
+    - Name: RideIn
+      Value: 1
+    - Name: ClapIn
+      Value: 0
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: MelodyIn
+      Value: 1
+    - Name: RideIn
+      Value: 1
+    - Name: ClapIn
+      Value: 0
+  - Target: {fileID: 1663793679}
+    Params: []
+  TriggerEvent: 3
+  CollisionTag: Player
+--- !u!65 &690059259
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690059256}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &690059260
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690059256}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &697522648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14175,6 +14480,97 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 599551058}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &707941300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 707941301}
+  - component: {fileID: 707941304}
+  - component: {fileID: 707941303}
+  - component: {fileID: 707941302}
+  m_Layer: 0
+  m_Name: TurnOffMusicIsland1
+  m_TagString: TurnOffMusicIsland1
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &707941301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707941300}
+  m_LocalRotation: {x: -0, y: 0.5994045, z: -0, w: 0.8004463}
+  m_LocalPosition: {x: 41.649998, y: 4.1500015, z: -2.3000002}
+  m_LocalScale: {x: 19.750187, y: 7.84757, z: 2.292601}
+  m_Children: []
+  m_Father: {fileID: 2061200655}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 73.65501, z: 0}
+--- !u!65 &707941302
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707941300}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &707941303
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707941300}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &707941304
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707941300}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &709098254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15526,6 +15922,60 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 454d2a74595ee2e47bbb00ce23e0643c, type: 3}
+--- !u!1 &764691139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 764691140}
+  - component: {fileID: 764691141}
+  m_Layer: 0
+  m_Name: Sea_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &764691140
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764691139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 97.6, y: -1.65, z: -46.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 661515528}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &764691141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764691139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Ambience/Sea_01
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 25
+  OverrideMaxDistance: 35
 --- !u!1001 &766173960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16152,6 +16602,8 @@ MonoBehaviour:
   flagPosition4: {fileID: 101231285}
   material: {fileID: 2100000, guid: f01dea0623e142d48b6f160d978e5939, type: 2}
   audioSource: {fileID: 1535481499}
+  BridgeSound: event:/Interaction/Bridge
+  FlagAddedSound: event:/Interaction/FlagAdded
 --- !u!1 &812770804
 GameObject:
   m_ObjectHideFlags: 0
@@ -16990,8 +17442,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 860136118}
-  m_LocalRotation: {x: 0.35294247, y: -0.14746736, z: -0.056332197, w: -0.9222319}
-  m_LocalPosition: {x: 74.27085, y: 21.117027, z: -8.418719}
+  m_LocalRotation: {x: -0.003230677, y: -0.95541805, z: -0.29504174, w: 0.0107878335}
+  m_LocalPosition: {x: 138.51686, y: 11.501343, z: 80.02542}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -17627,7 +18079,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 876288517}
   m_LocalRotation: {x: -0, y: 0.84107757, z: -0, w: 0.5409146}
-  m_LocalPosition: {x: 25.959995, y: 4.1500015, z: 0.9800005}
+  m_LocalPosition: {x: 26.44, y: 4.1500015, z: 0.76}
   m_LocalScale: {x: 10.787147, y: 2.2926, z: 2.292601}
   m_Children: []
   m_Father: {fileID: 2061200655}
@@ -19446,6 +19898,97 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943347873}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &948330083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 948330084}
+  - component: {fileID: 948330087}
+  - component: {fileID: 948330086}
+  - component: {fileID: 948330085}
+  m_Layer: 0
+  m_Name: TurnOnIsland4
+  m_TagString: MusicSwitch3
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &948330084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948330083}
+  m_LocalRotation: {x: -0, y: 0.9933656, z: -0, w: 0.114999294}
+  m_LocalPosition: {x: 6.13, y: 6.45, z: 54.24}
+  m_LocalScale: {x: 10.787147, y: 4.7699833, z: 2.292601}
+  m_Children: []
+  m_Father: {fileID: 2061200655}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 166.79301, z: 0}
+--- !u!65 &948330085
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948330083}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &948330086
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948330083}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &948330087
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948330083}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &948383562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19814,8 +20357,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 970965624}
-  m_LocalRotation: {x: 0.35294247, y: -0.14746736, z: -0.056332197, w: -0.9222319}
-  m_LocalPosition: {x: 74.27085, y: 21.117027, z: -8.418719}
+  m_LocalRotation: {x: -0.003230677, y: -0.95541805, z: -0.29504174, w: 0.0107878335}
+  m_LocalPosition: {x: 138.51686, y: 11.501343, z: 80.02542}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -20225,6 +20768,107 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1008353386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1008353387}
+  - component: {fileID: 1008353390}
+  - component: {fileID: 1008353389}
+  - component: {fileID: 1008353388}
+  m_Layer: 0
+  m_Name: Cube (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1008353387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008353386}
+  m_LocalRotation: {x: -0, y: 0.4550802, z: -0, w: 0.89045054}
+  m_LocalPosition: {x: 38.31, y: 5.16, z: 54.89}
+  m_LocalScale: {x: 8.047585, y: 5.9845233, z: 11.309978}
+  m_Children: []
+  m_Father: {fileID: 2061200655}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 54.140003, z: 0}
+--- !u!114 &1008353388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008353386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: LoopIn
+      Value: 1
+    - Name: MelodyIn2
+      Value: 1
+    - Name: KickIN
+      Value: 0
+    - Name: BassIn
+      Value: 0
+    - Name: ClapIn
+      Value: 0
+    - Name: RideIn
+      Value: 0
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: LoopIn
+      Value: 0
+    - Name: MelodyIn2
+      Value: 0
+    - Name: KickIN
+      Value: 0
+    - Name: BassIn
+      Value: 0
+    - Name: ClapIn
+      Value: 0
+    - Name: RideIn
+      Value: 0
+    - Name: MelodyIn
+      Value: 0
+  - Target: {fileID: 1663793679}
+    Params: []
+  TriggerEvent: 4
+  CollisionTag: Player
+--- !u!65 &1008353389
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008353386}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1008353390
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008353386}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1008989586
 GameObject:
   m_ObjectHideFlags: 0
@@ -21006,6 +21650,141 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1056795412}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1058615435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1058615436}
+  - component: {fileID: 1058615440}
+  - component: {fileID: 1058615439}
+  - component: {fileID: 1058615438}
+  - component: {fileID: 1058615437}
+  m_Layer: 0
+  m_Name: Cube (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1058615436
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058615435}
+  m_LocalRotation: {x: -0, y: -0.2389232, z: -0, w: 0.97103846}
+  m_LocalPosition: {x: -18.6, y: 3.4964485, z: 75.82}
+  m_LocalScale: {x: 8.857321, y: 7.074307, z: 9.121754}
+  m_Children: []
+  m_Father: {fileID: 2061200655}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: -27.646002, z: 0}
+--- !u!114 &1058615437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058615435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: MelodyIn
+      Value: 0
+    - Name: Drone1Full
+      Value: 0
+    - Name: BassIn
+      Value: 0
+    - Name: RideIn
+      Value: 0
+    - Name: KickIN
+      Value: 1
+    - Name: ClapIn
+      Value: 1
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: MelodyIn
+      Value: 0
+    - Name: BassIn
+      Value: 0
+    - Name: RideIn
+      Value: 0
+    - Name: KickIN
+      Value: 1
+    - Name: ClapIn
+      Value: 1
+  - Target: {fileID: 1663793679}
+    Params: []
+  TriggerEvent: 4
+  CollisionTag: Player
+--- !u!114 &1058615438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058615435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: Drone2In
+      Value: 1
+    - Name: MelodyIn
+      Value: 1
+    - Name: Drone1Full
+      Value: 1
+    - Name: RideIn
+      Value: 1
+    - Name: ClapIn
+      Value: 0
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: MelodyIn
+      Value: 1
+    - Name: RideIn
+      Value: 1
+    - Name: ClapIn
+      Value: 0
+  - Target: {fileID: 1663793679}
+    Params: []
+  TriggerEvent: 3
+  CollisionTag: Player
+--- !u!65 &1058615439
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058615435}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1058615440
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058615435}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1067878925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23043,8 +23822,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205100514}
   m_LocalRotation: {x: -0, y: 0.11427348, z: -0, w: 0.99344933}
-  m_LocalPosition: {x: 30.73, y: 5.16, z: -0.27}
-  m_LocalScale: {x: 8.047585, y: 5.9845233, z: 11.309978}
+  m_LocalPosition: {x: 30.1, y: 4.92, z: -1.42}
+  m_LocalScale: {x: 1.1809223, y: 5.9845233, z: 11.309978}
   m_Children: []
   m_Father: {fileID: 2061200655}
   m_RootOrder: 6
@@ -23062,6 +23841,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: LoopIn
+      Value: 1
+    - Name: MelodyIn2
+      Value: 1
+    - Name: KickIN
+      Value: 0
+    - Name: BassIn
+      Value: 0
+    - Name: ClapIn
+      Value: 0
+    - Name: RideIn
+      Value: 0
   - Target: {fileID: 1663793673}
     Params:
     - Name: LoopIn
@@ -24332,6 +25125,97 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1249404387}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1250681213
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1250681214}
+  - component: {fileID: 1250681217}
+  - component: {fileID: 1250681216}
+  - component: {fileID: 1250681215}
+  m_Layer: 0
+  m_Name: TurnOnIsland3
+  m_TagString: MusicSwitch2
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1250681214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250681213}
+  m_LocalRotation: {x: -0, y: 0.95793563, z: -0, w: 0.28698337}
+  m_LocalPosition: {x: 39.24, y: 4.1500015, z: 54.08}
+  m_LocalScale: {x: 10.787147, y: 4.7699833, z: 2.292601}
+  m_Children: []
+  m_Father: {fileID: 2061200655}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 146.645, z: 0}
+--- !u!65 &1250681215
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250681213}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1250681216
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250681213}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1250681217
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250681213}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1256111188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24973,6 +25857,139 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1284839725}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1286547619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1286547620}
+  - component: {fileID: 1286547624}
+  - component: {fileID: 1286547623}
+  - component: {fileID: 1286547622}
+  - component: {fileID: 1286547621}
+  m_Layer: 0
+  m_Name: Cube (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1286547620
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286547619}
+  m_LocalRotation: {x: -0, y: 0.17955743, z: -0, w: 0.98374754}
+  m_LocalPosition: {x: 2.23, y: 2.5900002, z: 81.64}
+  m_LocalScale: {x: 8.857321, y: 7.074307, z: 9.121754}
+  m_Children: []
+  m_Father: {fileID: 2061200655}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 20.688002, z: 0}
+--- !u!114 &1286547621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286547619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: Drone1Full
+      Value: 0
+    - Name: BassIn
+      Value: 0
+    - Name: RideIn
+      Value: 0
+    - Name: KickIN
+      Value: 1
+    - Name: ClapIn
+      Value: 1
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: MelodyIn
+      Value: 0
+    - Name: BassIn
+      Value: 0
+    - Name: RideIn
+      Value: 0
+    - Name: KickIN
+      Value: 1
+    - Name: ClapIn
+      Value: 1
+  - Target: {fileID: 1663793679}
+    Params: []
+  TriggerEvent: 4
+  CollisionTag: Player
+--- !u!114 &1286547622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286547619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: Drone2In
+      Value: 0
+    - Name: MelodyIn
+      Value: 0
+    - Name: Drone1Full
+      Value: 1
+    - Name: RideIn
+      Value: 1
+    - Name: ClapIn
+      Value: 0
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: MelodyIn
+      Value: 1
+    - Name: RideIn
+      Value: 1
+    - Name: ClapIn
+      Value: 0
+  - Target: {fileID: 1663793679}
+    Params: []
+  TriggerEvent: 3
+  CollisionTag: Player
+--- !u!65 &1286547623
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286547619}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1286547624
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286547619}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1288702753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24990,15 +26007,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 51.28
+      value: 51.35
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 52.41
+      value: 52.636
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.24
+      value: 6.54
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.x
@@ -25262,6 +26279,97 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1301656913}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1307271723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1307271724}
+  - component: {fileID: 1307271727}
+  - component: {fileID: 1307271726}
+  - component: {fileID: 1307271725}
+  m_Layer: 0
+  m_Name: Cube (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1307271724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307271723}
+  m_LocalRotation: {x: -0, y: -0.2389232, z: -0, w: 0.97103846}
+  m_LocalPosition: {x: -0.37, y: 5.5, z: 69.01}
+  m_LocalScale: {x: 8.857321, y: 7.074307, z: 9.121754}
+  m_Children: []
+  m_Father: {fileID: 2061200655}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: -27.646002, z: 0}
+--- !u!114 &1307271725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307271723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: Drone2In
+      Value: 1
+    - Name: MelodyIn
+      Value: 1
+    - Name: Drone1Full
+      Value: 1
+    - Name: RideIn
+      Value: 1
+    - Name: ClapIn
+      Value: 0
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: MelodyIn
+      Value: 1
+    - Name: RideIn
+      Value: 1
+    - Name: ClapIn
+      Value: 0
+  - Target: {fileID: 1663793679}
+    Params: []
+  TriggerEvent: 3
+  CollisionTag: Player
+--- !u!65 &1307271726
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307271723}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1307271727
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307271723}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1308224679
 GameObject:
   m_ObjectHideFlags: 0
@@ -28574,6 +29682,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: RideIn
+      Value: 1
+    - Name: KickIN
+      Value: 1
+    - Name: ClapIn
+      Value: 1
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: RideIn
+      Value: 1
+    - Name: KickIN
+      Value: 1
+    - Name: ClapIn
+      Value: 1
   - Target: {fileID: 1663793679}
     Params:
     - Name: RideIn
@@ -30586,7 +31710,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1535481498}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: -0.02, z: -0.035}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 165282549}
@@ -31181,6 +32305,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: MelodyIn
+      Value: 0
+    - Name: RideIn
+      Value: 1
+    - Name: BassIn
+      Value: 1
+    - Name: KickIN
+      Value: 1
+    - Name: ClapIn
+      Value: 1
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: MelodyIn
+      Value: 0
+    - Name: RideIn
+      Value: 1
+    - Name: BassIn
+      Value: 1
+    - Name: KickIN
+      Value: 1
+    - Name: ClapIn
+      Value: 1
   - Target: {fileID: 1663793679}
     Params:
     - Name: MelodyIn
@@ -32944,6 +34092,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: MelodyIn
+      Value: 1
+    - Name: RideIn
+      Value: 1
+    - Name: BassIn
+      Value: 1
+    - Name: KickIN
+      Value: 1
+    - Name: ClapIn
+      Value: 1
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: MelodyIn
+      Value: 1
+    - Name: RideIn
+      Value: 1
+    - Name: BassIn
+      Value: 1
+    - Name: KickIN
+      Value: 1
+    - Name: ClapIn
+      Value: 1
   - Target: {fileID: 1663793679}
     Params:
     - Name: MelodyIn
@@ -33481,6 +34653,7 @@ MonoBehaviour:
   flagPosition: {fileID: 1501384255}
   currentFlag: {fileID: 0}
   hasFlag: 0
+  FlagPickedUpSound: event:/Interaction/FlagPickedUp
 --- !u!114 &1663793673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33500,7 +34673,11 @@ MonoBehaviour:
   AllowFadeout: 1
   TriggerOnce: 1
   Preload: 0
-  Params: []
+  Params:
+  - Name: MelodyIn2
+    Value: 0
+  - Name: LoopIn
+    Value: 0
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
@@ -33510,6 +34687,35 @@ Rigidbody:
     type: 3}
   m_PrefabInstance: {fileID: 1288702753}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1663793675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663793671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Music/Music_Island_3
+  PlayEvent: 3
+  StopEvent: 0
+  CollisionTag: MusicSwitch2
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params:
+  - Name: Drone1Full
+    Value: 0
+  - Name: Drone2In
+    Value: 1
+  - Name: MelodyIn
+    Value: 1
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!4 &1663793677 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0,
@@ -33544,8 +34750,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event: event:/Music/Music_Island_1
   PlayEvent: 1
-  StopEvent: 0
-  CollisionTag: 
+  StopEvent: 3
+  CollisionTag: TurnOffMusicIsland1
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -36195,8 +37401,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1808448068}
-  m_LocalRotation: {x: 0.35294247, y: -0.14746736, z: -0.056332197, w: -0.9222319}
-  m_LocalPosition: {x: 74.27085, y: 21.117027, z: -8.418719}
+  m_LocalRotation: {x: -0.003230677, y: -0.95541805, z: -0.29504174, w: 0.0107878335}
+  m_LocalPosition: {x: 138.51686, y: 11.501343, z: 80.02542}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -38024,6 +39230,60 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1894963575}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1896949522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1896949523}
+  - component: {fileID: 1896949524}
+  m_Layer: 0
+  m_Name: Forest_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1896949523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896949522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 59.09, y: 6.51, z: -43.89}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 661515528}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1896949524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896949522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Ambience/Forest_01
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 20
+  OverrideMaxDistance: 40
 --- !u!1001 &1907988001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39404,6 +40664,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: MelodyIn
+      Value: 1
+    - Name: RideIn
+      Value: 1
+    - Name: ClapIn
+      Value: 0
   - Target: {fileID: 1663793673}
     Params:
     - Name: MelodyIn
@@ -39456,6 +40724,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: MelodyIn
+      Value: 0
+    - Name: BassIn
+      Value: 0
+    - Name: RideIn
+      Value: 0
+    - Name: KickIN
+      Value: 1
+    - Name: ClapIn
+      Value: 1
   - Target: {fileID: 1663793673}
     Params:
     - Name: MelodyIn
@@ -42572,6 +43852,16 @@ Transform:
   - {fileID: 1643894009}
   - {fileID: 1205100515}
   - {fileID: 1953876044}
+  - {fileID: 1250681214}
+  - {fileID: 2143357676}
+  - {fileID: 1008353387}
+  - {fileID: 1286547620}
+  - {fileID: 1058615436}
+  - {fileID: 690059257}
+  - {fileID: 1307271724}
+  - {fileID: 948330084}
+  - {fileID: 492988437}
+  - {fileID: 707941301}
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -42941,7 +44231,7 @@ MonoBehaviour:
   bridge: {fileID: 2131714233}
   sand_02: {fileID: 2100000, guid: f01dea0623e142d48b6f160d978e5939, type: 2}
   audioSource: {fileID: 1979238737}
-  BridgeSound: 
+  BridgeSound: event:/Interaction/Bridge
 --- !u!4 &2084125927
 Transform:
   m_ObjectHideFlags: 0
@@ -44334,6 +45624,135 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2141531392}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2143357675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2143357676}
+  - component: {fileID: 2143357680}
+  - component: {fileID: 2143357679}
+  - component: {fileID: 2143357678}
+  - component: {fileID: 2143357677}
+  m_Layer: 0
+  m_Name: Cube (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2143357676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143357675}
+  m_LocalRotation: {x: -0, y: 0.42677644, z: -0, w: 0.90435714}
+  m_LocalPosition: {x: 26.64, y: 2.5900002, z: 67.62}
+  m_LocalScale: {x: 13.072186, y: 4.988868, z: 13.462453}
+  m_Children: []
+  m_Father: {fileID: 2061200655}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 50.526, z: 0}
+--- !u!114 &2143357677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143357675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: Drone1Full
+      Value: 0
+    - Name: BassIn
+      Value: 0
+    - Name: RideIn
+      Value: 0
+    - Name: KickIN
+      Value: 1
+    - Name: ClapIn
+      Value: 1
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: MelodyIn
+      Value: 0
+    - Name: BassIn
+      Value: 0
+    - Name: RideIn
+      Value: 0
+    - Name: KickIN
+      Value: 1
+    - Name: ClapIn
+      Value: 1
+  - Target: {fileID: 1663793679}
+    Params: []
+  TriggerEvent: 4
+  CollisionTag: Player
+--- !u!114 &2143357678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143357675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Emitters:
+  - Target: {fileID: 1663793675}
+    Params:
+    - Name: Drone1Full
+      Value: 1
+    - Name: RideIn
+      Value: 1
+    - Name: ClapIn
+      Value: 0
+  - Target: {fileID: 1663793673}
+    Params:
+    - Name: MelodyIn
+      Value: 1
+    - Name: RideIn
+      Value: 1
+    - Name: ClapIn
+      Value: 0
+  - Target: {fileID: 1663793679}
+    Params: []
+  TriggerEvent: 3
+  CollisionTag: Player
+--- !u!65 &2143357679
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143357675}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &2143357680
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143357675}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &2144309276
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -17,6 +17,10 @@ public class Bridge_manager_02 : MonoBehaviour
     public Transform flagPosition4;
     public Material material;
     public AudioSource audioSource;
+    [FMODUnity.EventRef]
+    public string BridgeSound;
+    [FMODUnity.EventRef]
+    public string FlagAddedSound;
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +46,7 @@ public class Bridge_manager_02 : MonoBehaviour
                     firstFlagAdded = true;
                     flag.currentFlag.OnPickup(flagPosition2);                   
                     flag.hasFlag = false;
+                    FMODUnity.RuntimeManager.PlayOneShot(FlagAddedSound, transform.position);
                 }
                 else
                 {
@@ -50,6 +55,7 @@ public class Bridge_manager_02 : MonoBehaviour
                         secondFlagAdded = true;
                         flag.currentFlag.OnPickup(flagPosition3);
                         flag.hasFlag = false;
+                        FMODUnity.RuntimeManager.PlayOneShot(FlagAddedSound, transform.position);
                     }
                     else
                     {
@@ -63,6 +69,8 @@ public class Bridge_manager_02 : MonoBehaviour
                             flag.hasFlag = false;
                             bridgeOpened = true;
                             audioSource.Play();
+                            FMODUnity.RuntimeManager.PlayOneShot(FlagAddedSound, transform.position);
+                            FMODUnity.RuntimeManager.PlayOneShot(BridgeSound, transform.position);
                         }
                     }
                 }

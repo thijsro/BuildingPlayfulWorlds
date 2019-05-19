@@ -17,6 +17,13 @@ public class DeathTrap : MonoBehaviour
 
     GameObject player;
 
+    [FMODUnity.EventRef]
+    public string DeathTrapBadSound;
+    [FMODUnity.EventRef]
+    public string DeathTrapGoodSound;
+    [FMODUnity.EventRef]
+    public string BridgeSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,17 +47,20 @@ public class DeathTrap : MonoBehaviour
             //Tell manager to make all tiles red.
             Debug.Log("You died!");
             Manager.DeathPuzzle();
+            FMODUnity.RuntimeManager.PlayOneShot(DeathTrapBadSound, transform.position);
         }
         else
         {
             
             deathTrap.gameObject.GetComponent<Renderer>().sharedMaterial = DeathTrap_2;
+            FMODUnity.RuntimeManager.PlayOneShot(DeathTrapGoodSound, transform.position);
             if (isLastOne == true)
             {
                 //Create next way to walk
                 Debug.Log("Wall destroyed");
                 Destroy(Wall);
                 Manager.PuzzleSolved();
+                FMODUnity.RuntimeManager.PlayOneShot(BridgeSound, transform.position);
             }
         }
     }

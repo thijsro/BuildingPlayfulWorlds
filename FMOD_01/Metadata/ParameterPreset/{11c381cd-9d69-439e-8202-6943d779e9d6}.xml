@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{11c381cd-9d69-439e-8202-6943d779e9d6}">
+        <property name="name">
+            <value>Drone2In</value>
+        </property>
+        <relationship name="folder">
+            <destination>{21ee4b9b-93a0-4938-8af0-c07173436418}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{9f1d7782-4735-49f6-bd55-3b162a3ac3bf}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{9f1d7782-4735-49f6-bd55-3b162a3ac3bf}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+        <property name="seekSpeed">
+            <value>0.60000002384185791</value>
+        </property>
+    </object>
+</objects>

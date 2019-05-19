@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{a3fc9c11-64b6-4768-ba9d-4c77643b4d50}">
+        <property name="assetPath">
+            <value>ISA_03_DRONE_2.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>84</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{3910eb30-0af1-4c0f-a4a1-b14506da65f0}</destination>
+        </relationship>
+    </object>
+</objects>

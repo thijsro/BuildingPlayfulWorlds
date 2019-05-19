@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{3ba616af-8f89-4888-84b4-b04368ba1b52}">
+        <property name="assetPath">
+            <value>Desert_Ambient_01.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>131.77664583333333</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{3910eb30-0af1-4c0f-a4a1-b14506da65f0}</destination>
+        </relationship>
+    </object>
+</objects>

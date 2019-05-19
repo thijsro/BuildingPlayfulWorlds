@@ -360,8 +360,8 @@
             <destination>{88005788-d692-47c3-8547-c1a9b2807eba}</destination>
         </relationship>
         <relationship name="automationPoints">
-            <destination>{b67cc70d-f1e4-4e7c-a669-f4942c641072}</destination>
             <destination>{e09d28bb-6cd7-40f2-b9ca-833ad50b1891}</destination>
+            <destination>{8587c4c0-54c5-4c6c-9710-1e1b2364a649}</destination>
         </relationship>
     </object>
     <object class="SFXReverbEffect" id="{db275ee7-901e-4fd8-987e-ac7b16a7fed3}"/>
@@ -387,15 +387,7 @@
             <value>1</value>
         </property>
         <property name="value">
-            <value>0</value>
-        </property>
-    </object>
-    <object class="AutomationPoint" id="{b67cc70d-f1e4-4e7c-a669-f4942c641072}">
-        <property name="position">
-            <value>0</value>
-        </property>
-        <property name="value">
-            <value>-80</value>
+            <value>-5</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{e09d28bb-6cd7-40f2-b9ca-833ad50b1891}">
@@ -403,7 +395,15 @@
             <value>1</value>
         </property>
         <property name="value">
+            <value>-5</value>
+        </property>
+    </object>
+    <object class="AutomationPoint" id="{8587c4c0-54c5-4c6c-9710-1e1b2364a649}">
+        <property name="position">
             <value>0</value>
+        </property>
+        <property name="value">
+            <value>-80</value>
         </property>
     </object>
 </objects>

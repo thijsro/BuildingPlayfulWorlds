@@ -10,6 +10,9 @@ public class FlagController : MonoBehaviour
 
     public bool hasFlag = false;
 
+    [FMODUnity.EventRef]
+    public string FlagPickedUpSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +38,8 @@ public class FlagController : MonoBehaviour
                 currentFlag.GetComponent<SphereCollider>().enabled = false;
                 hasFlag = true;
                 Debug.Log("Picked up flag");
+                FMODUnity.RuntimeManager.PlayOneShot(FlagPickedUpSound, transform.position);
+
             }
         }
         else

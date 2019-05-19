@@ -126,3 +126,6 @@ MonoBehaviour:
   DeathTrap_1: {fileID: 2100000, guid: 3601ffc4afeafac4b833f4f8fa5a0e18, type: 2}
   DeathTrap_2: {fileID: 2100000, guid: 955889b28bf992d4dba9658d53b7580f, type: 2}
   Wall: {fileID: 0}
+  DeathTrapBadSound: event:/Interaction/DeathTrapBad
+  DeathTrapGoodSound: event:/Interaction/DeathTrapGood
+  BridgeSound: event:/Interaction/Bridge

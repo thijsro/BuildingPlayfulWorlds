@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Flagbox
   - MusicSwitch
+  - MusicSwitch2
+  - MusicSwitch3
+  - TurnOffMusicIsland1
   layers:
   - Default
   - TransparentFX
