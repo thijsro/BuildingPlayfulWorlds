@@ -5,6 +5,7 @@ using UnityEngine;
 public class EndGame : MonoBehaviour
 {
     public ParticleSystem[] ps;
+    [FMODUnity.EventRef] public string endSong;
 
 
     // Start is called before the first frame update
@@ -30,5 +31,9 @@ public class EndGame : MonoBehaviour
             ps[i].gameObject.GetComponent<ParticleSystem>().Play();
 
         }
+        FMODUnity.RuntimeManager.PlayOneShot(endSong, transform.position);
+
+        Destroy(this);
+        
     }
 }

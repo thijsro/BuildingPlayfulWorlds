@@ -10,8 +10,7 @@ public class FlagController : MonoBehaviour
 
     public bool hasFlag = false;
 
-    [FMODUnity.EventRef]
-    public string FlagPickedUpSound;
+    [FMODUnity.EventRef] public string FlagPickedUpSound;
 
     // Start is called before the first frame update
     void Start()

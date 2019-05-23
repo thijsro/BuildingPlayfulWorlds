@@ -9,6 +9,7 @@ TagManager:
   - MusicSwitch2
   - MusicSwitch3
   - TurnOffMusicIsland1
+  - TurnOffMusicIsland3
   layers:
   - Default
   - TransparentFX
